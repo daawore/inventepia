@@ -1,0 +1,26 @@
+body,
+input,
+select,
+button,
+textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+nav * {
+    font-size: 20px;
+}
+
+@media screen and (min-height: 1279px) {
+	body,
+    input,
+    select,
+    button,
+    textarea{
+		font-size: 35px;
+	}
+
+    nav * {
+        font-size: 35px;
+    }
+}
